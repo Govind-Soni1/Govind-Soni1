@@ -1,0 +1,124 @@
+<!Doctype html>
+<html>
+<head><title>Student Registration Form</title>
+<style>
+h2{
+     text-align:right;
+     color:blueviolet;
+}
+</style>
+</head>
+<body>
+<h2><b><u>STUDENT REGISTRATION FORM</b></u></h2>
+<form style="background-color:powderblue;">
+<fieldset>
+	<legend style="color:red;"><b>Basic Information</b></legend>
+<b>
+<table>
+<tr>
+<td><label for="First">First Name*</label></td>
+<td>:<input type ="text" id="First" name="First" required>
+<td>Middle Name*</td> 
+<td>:<input type ="text" name="middle"></td>
+<td>Last Name*</td>
+<td>:<input type ="text" name="Last"></td>
+</tr>
+<tr>
+<td>Roll No.*</td>
+<td>:<input type ="number" name="RollNo"></td>
+</tr>
+<tr>
+<td>Email ID*</td>
+<td>:<input type ="email" name="EmailID"></td>
+</tr>
+<tr>
+<td>Phone No.*</td>
+<td>:<input type ="number" name="PhoneNo"></td>
+</tr>
+<tr>
+<td>User ID*</td>
+<td>:<input type ="text" name="UserID"></td>
+</tr>
+<tr>
+<td>Enter Password*</td>
+<td>:<input type ="password" name="password"></td>
+</tr>
+<tr>
+<td>Re-Enter Password*</td>
+<td>:<input type ="password" name="password"></td>
+</tr>
+<tr>
+<td>Branch*</td>
+<td>: <select name="Branch">
+		<option value=" ">Select Your Branch</option>
+		<option value=" ">CSE</option>
+		<option value=" ">civil</option>
+		<option value=" ">mechanical</option>
+</select></td>
+</tr>
+<tr>
+<td>Year of Study*</td>
+<td>: <select name="Branch">
+		<option value=" ">Select Your Yeat of Study</option>
+		<option value=" ">First</option>
+		<option value=" ">Second</option>
+		<option value=" ">Third</option>
+</select></td>
+</tr>
+<tr>
+<td>Upload Photo*</td>
+<td>: <input type="file" name="UploadPhoto"></td>
+</tr>
+</b>
+</table>
+</fieldset>
+<fieldset>
+	<legend style="color:red;"><b>Personal Information</b></legend>
+<b>
+<table>
+<tr>
+<td>Father Name*</td>
+<td>:<input type="text" name="FatherName"></td>
+<td>Contact No.*</td>
+<td>:<input type="text" name="ContactNo"></td>
+</tr>
+<tr>
+<td>Mother Name*</td>
+<td>:<input type="text" name="MotherName"></td>
+<td>Contact No.</td>
+<td>:<input type="text" name="ContactNo"></td>
+</tr>
+<tr>
+<td>Date Of Birth*</td>
+<td>:<input type="date" name="DateOfBirth"></td>
+</tr>
+<tr>
+<td>Aadhar No.*</td>
+<td>:<input type="number" name="Aadharno"></td>
+</tr>
+</b>
+</table>
+</fieldset>
+<fieldset>
+	<legend style="color:red;"><b>Address</b></legend>
+<b>
+<table>
+<tr>
+<td>Address1*</td>
+<td>:<textarea rows = "4" cols = "40" name="Address1"></textarea></td>
+</tr>
+<tr>
+<td>Address2</td>
+<td>:<textarea rows = "4" cols = "40" name="Address2"></textarea></td>
+</tr>
+</b>
+</table>
+</fieldset>
+</form>
+
+<form style="text-align:right"> 
+<input type="submit" value="Register">
+<input type="reset" value="Reset">
+</form>
+</body>
+</html>

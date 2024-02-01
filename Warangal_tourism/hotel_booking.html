@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking-Warangal Tourism</title>
+    <style>
+        body {
+            background: url('background_image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for better readability */
+            color: white;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin: 5px;
+        }
+        section {
+            padding: 20px;
+            color: white;
+        }
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background for better visibility */
+            padding: 20px;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            width: 138.5%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+        
+            <a href="index.html">
+                <h1>Warangal Tourism</h1>  </a>
+        <img src="logo3.png" alt="City Logo"  width="250px" height="100">
+    </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="heritage.html">Heritage</a>
+        <a href="hotel_booking.html">Hotel Booking</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+        <h2 style="text-align: center;">Hotel Booking</h2>
+        <form>
+            <!-- Hotel booking form elements go here -->
+            
+            <fieldset>
+                <center>
+               <h2>Hotel Booking</h2> 
+               <h4>Experience Something new every moment</h4>
+                </center>
+                <b>
+            <table>
+                <tr>
+                    <td>FirstName</td>
+                    <td>:<input type="text" name="FirstName"></td>
+                    <td>MiddleName</td>
+                    <td>:<input type="text" name="MiddleName"></td>
+                    <td>LastName</td>
+                    <td>:<input type="text" name="LastName"></td>
+                </tr>
+                <tr>
+                    <td>EmailID</td>
+                    <td>:<input type="email" name="EmailID"></td>
+                </tr>
+                <tr>
+                    <td>Room Type</td>
+                    <td>: <select name="RoomType">
+                         <option value=" ">Please Select Your RoomType    </option>
+                         <option value=" ">Standard Room (1 to 2 People)   </option>
+                         <option value=" ">Family Room (1 to 4 People)     </option>
+                         <option value=" ">Private Room (1 to 3 People)    </option>
+                         <option value=" ">Mix Dorm Room (6 People)        </option>
+                         <option value=" ">Female Dorm Room (6 People)     </option>
+                         <option value=" ">male Dorm Room (6 People)       </option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Number of Guests</td>
+                    <td>:<input type="number" name="PhoneNumber"></td>
+                </tr>
+                <tr>
+                    <td>Arrival Date & TIME</td>
+                    <TD>:<input type="date" name="Date"></TD>
+                    <td><input type="time"  name="time"></td>
+                </tr>
+                <tr>
+                    <td>Departure Date & TIME</td>
+                    <TD>:<input type="Date" name="Date"></TD>
+                </tr>
+                <tr>
+                    <td>Free-PickUp?</td>
+                    <td><input type="radio" id="yes" name="freepickup" value="yes!Please">YesPlease!</td>
+                    <td></td>
+                    <td><input type="radio" id="no" name="freepickup" value="No!Thanks">No Thanks</td>
+                </tr>
+                <tr>
+                    <td>Special Request</td>
+                    <td>:<textarea rows="5"></textarea></td>
+                </tr>                
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td><input type="submit"></td>
+                </tr>
+            </b>
+            </table>
+            </fieldset>
+        </form>
+
+
+    <footer>
+        <p>&copy; 2024 Warangal Tourism. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

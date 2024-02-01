@@ -1,0 +1,11 @@
+body{
+    background-color: darkolivegreen;
+}
+h1{
+    color: crimson;
+    margin-left: 20px;
+}
+#logo{
+    align-items: center;
+    margin-left: 20px;
+}
