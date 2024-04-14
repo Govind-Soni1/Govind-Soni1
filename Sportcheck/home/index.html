@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<!-- Coding By CodingNepal - codingnepalweb.com -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SportCheck.in</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Unicons -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header1">
+      <nav class="nav">
+        <a href="../home/index.html" class="logo"><img src="logo.png" alt="logo"></a>
+
+        <ul class="nav_items">
+          <li class="nav_item">
+            <a href="../home/index.html" class="nav_link link">Home</a>
+            <a href="../cricket/index.html" class="nav_link link">Sports</a>
+            <a href="../About Us/index.html" class="nav_link link">About Us</a>
+            <a href="../contact us/index.html" class="nav_link link">Contact Us</a>
+          </li>
+        </ul>   
+        <button class="button" id="form-open">Login</button>
+      </nav>
+    </header>
+
+    <!-- Home -->
+    <section class="home1">
+      <div class="form_container">
+        <i class="uil uil-times form_close"></i>
+
+        <div class="form login_form">
+          <form action="#">
+            <h2>Login</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Enter your password" required />
+              <i class="uil uil-lock password"></i>
+            </div>
+
+            <div class="option_field">
+              <span class="checkbox">
+                <input type="checkbox" id="check" />
+                <label for="check">Remember me</label>
+              </span>
+              <a href="#" class="forgot_pw">Forgot password?</a>
+            </div>
+
+            <button class="button">Login Now</button>
+
+            <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+          </form>
+        </div>
+        <div class="form signup_form">
+          <form action="#">
+            <h2>Signup</h2>
+
+            <div class="input_box">
+              <input type="email" placeholder="Enter your email" required />
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" id="pass" placeholder="Create password" required />
+              <i class="uil uil-lock password"></i>
+
+            </div>
+            <div id="passwordStrength"></div>
+            <div class="input_box">
+              <input type="password" id="cpass" placeholder="Confirm password" required />
+              <i class="uil uil-lock password"></i>
+            </div>
+            <div id="passwordMatch"></div>
+
+            <button class="button">Signup Now</button>
+
+            <div class="login_signup">Already have an account? <a href="#" id="login">Login</a></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <div class="mainbody">
+      <div class="mainbody">
+        <div class="first">
+          <div class="Space">
+            <div class="matches" id="Upcoming">
+              <h2>Upcoming Events</h2>
+              <div class="row1">
+                <span>Cricket:IPL</span>
+                <div class="team-score">
+                  <div class="div">
+                    <img src="csklogo.png" alt="" id="csk-img" />
+                    <p>csk</p>
+                  </div>
+                  <div class="score">
+                    <p>V/S</p>
+                  </div>
+                  <div class="div">
+                    <img src="kkrlogo.png" alt="" id="kkr-img" />
+                    <p>kkr</p>
+                  </div>
+                </div>
+                <div class="result">csk won by 50 runs</div>
+              </div>
+              <hr />
+              <div class="row2">
+                <span>Football:PL</span>
+                <div class="team-score">
+                  <div class="div">
+                    <img src="chelsea.png" alt="" id="csk-img" />
+                    <p>Chl</p>
+                  </div>
+                  <div class="score">
+                    <p>V/S</p>
+                  </div>
+                  <div class="div">
+                    <img src="manchestorCity.png" alt="" id="kkr-img" />
+                    <p>MC</p>
+                  </div>
+                </div>
+                <div class="result">Chelsea won</div>
+              </div>
+              <hr />
+              <div class="row1">
+                <span>Hockey:FIH Pro-League</span>
+                <div class="team-score">
+                  <div class="div">
+                    <img src="india.png" alt="" id="csk-img" />
+                    <p>Ind</p>
+                  </div>
+                  <div class="score">
+                    <!-- [<p id="p1">7</p>
+                    <p id="p2">5</p>] -->
+                    <p>V/s</p>
+                  </div>
+                  <div class="div">
+                    <img src="spain.png" alt="" id="kkr-img" />
+                    <p>Spn</p>
+                  </div>
+                </div>
+                <div class="result">India Have won</div>
+              </div>
+            </div>
+          </div>
+          <div class="Space slide">
+            <div class="slideshow-container">
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="image1.jpeg" style="width: 100%" />
+              </div>
+        
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="image1a.jpeg" style="width: 100%" />
+              </div>
+        
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="image1b.jpeg" style="width: 100%" />
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                <img src="image2.jpeg" style="width: 100%" />
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="image.3.jpeg" style="width: 100%" />
+              </div>
+        
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+            <br/>
+        
+            <div style="text-align: center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(4)"></span>
+              <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+          </div>
+          <div class="Space One">
+              <h3>Recents</h3>
+              <div class="recents">
+                <div class="info">
+                  <div class="heading1"><p>Hindustan Times</p></div>
+                  <div class="headline"><a href="">Rishabh Pant third-youngest to reach 3000-run mark in IPL;</a></div>
+                </div>
+                <div class="imagetr"><img src="1.jpeg" alt="rishabh panth"></div>
+              </div>
+              <div class="recents">
+                <div class="info">
+                  <div class="heading1"><p>Hindustan Times</p></div>
+                  <div class="headline"><a href="">Rishabh Pant third-youngest to reach 3000-run mark in IPL;</a></div>
+                </div>
+                <div class="imagetr"><img src="1.jpeg" alt="rishabh panth"></div>
+              </div>
+              <div class="recents">
+                <div class="info">
+                  <div class="heading1"><p>Hindustan Times</p></div>
+                  <div class="headline"><a href="">Rishabh Pant third-youngest to reach 3000-run mark in IPL;</a></div>
+                </div>
+                <div class="imagetr"><img src="1.jpeg" alt="rishabh panth"></div>
+              </div>
+          </div>
+        </div>
+          <div class="main first">
+            <div class="matches">
+              <h2>Featured Matches</h2>
+              <div class="row1">
+                <span>Cricket:IPL</span>
+                <div class="team-score">
+                  <div class="div">
+                    <img src="csklogo.png" alt="" id="csk-img" />
+                    <p>csk</p>
+                  </div>
+                  <div class="score">
+                    <p id="p1">121/5(20)</p>
+                    <p id="p2">130/6(20)</p>
+                  </div>
+                  <div class="div">
+                    <img src="kkrlogo.png" alt="" id="kkr-img" />
+                    <p>kkr</p>
+                  </div>
+                </div>
+                <div class="result">csk won by 50 runs</div>
+              </div>
+              <hr />
+              <div class="row2">
+                <span>Football:PL</span>
+                <div class="team-score">
+                  <div class="div">
+                    <img src="chelsea.png" alt="" id="csk-img" />
+                    <p>Chl</p>
+                  </div>
+                  <div class="score">
+                    <p id="p1">3</p>
+                    <p id="p2">0</p>
+                  </div>
+                  <div class="div">
+                    <img src="manchestorCity.png" alt="" id="kkr-img" />
+                    <p>MC</p>
+                  </div>
+                </div>
+                <div class="result">Chelsea won</div>
+              </div>
+              <hr />
+            </div>
+            <div class="photo-card">
+                  
+              <div class="card-1">
+                  <a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, reiciendis!</a>
+              </div>
+              <div class="card-2">
+                  <a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, reiciendis!</a>
+              </div>
+              <div class="card-3">
+                  <a href="#">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, reiciendis!</a>
+              </div>
+            </div>
+          </div>
+          <div class="first">
+
+          </div>
+      
+
+       </div>
+    </div>
+    <div class="footer">
+      <div class="leftf">
+          <img src="logo.png" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+              Sit eius totam perferendis. Eveniet quos, debitis ducimus quod qui repudiandae est.</p>
+      </div>
+      <div class="midf">
+          <h2>Menu</h2>
+          <a href="../home/index.html">Home</a> <br>
+          <a href="../cricket/index.html">Sports</a><br>
+          <a href="../About Us/index.html">About us</a><br>
+          <a href="../contact us/index.html">Contacts</a>
+      </div>
+      <div class="rightf">
+          <h2>Contacts</h2>
+          <div><ion-icon name="location" aria-hidden="true" class="f-icon"></ion-icon>
+              <span class="span">NIT-Warangal , Hanamkonda , Telangana , Pin:-506004</span>
+              <hr>
+          </div>
+          <div>
+              <br><ion-icon name="mail" aria-hidden="true" class="f-icon"></ion-icon>
+
+              <span class="span">sportcheck123@gmail.com</span></div>
+           <div>
+              <ion-icon name="call" aria-hidden="true" class="f-icon"></ion-icon>
+      
+               <span class="span">+91-1234567890</span>
+          </div>
+          <div class="social-list">
+              <a href="#" class="social-link"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="#" class="social-link"><ion-icon name="logo-instagram"></ion-icon></a>
+              <a href="#" class="social-link"><ion-icon name="logo-twitter"></ion-icon></a>
+          </div>
+      </div>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </div>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
